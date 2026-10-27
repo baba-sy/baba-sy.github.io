@@ -5,6 +5,6 @@ permalink: /about/
 ---
 # About
 
+- Republic of Korea
 - Department of Cyber ​​Defense, Korea University
-- CyKor
 
