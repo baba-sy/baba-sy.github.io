@@ -1,15 +1,11 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
+# About
 
-Some information about you!
+안녕하세요, baba-sy입니다.
+보안을 공부하며 CTF 문제를 풀고, 배운 내용을 이곳에 기록합니다.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+이 글은 `about.md`에서 수정할 수 있어요.

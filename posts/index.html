@@ -1,0 +1,23 @@
+---
+layout: default
+title: Posts
+---
+<h1>Writings</h1>
+
+<ul class="post-list">
+  {% for post in paginator.posts %}
+    {% include post-item.html post=post %}
+  {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pager" aria-label="페이지 이동">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">이전</a>
+  {% endif %}
+  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">다음</a>
+  {% endif %}
+</nav>
+{% endif %}
