@@ -2,12 +2,10 @@
 layout: default
 title: Home
 ---
-<h1>{{ site.title }}</h1>
-<p class="lead">{{ site.description }}</p>
-
-<h2 class="section"><a href="{{ '/posts/' | relative_url }}">Writings</a></h2>
+<h1>Recent writings</h1>
 <ul class="post-list">
   {% for post in site.posts limit: 5 %}
     {% include post-item.html post=post %}
   {% endfor %}
 </ul>
+<p class="back"><a href="{{ '/posts/' | relative_url }}">All posts</a></p>

@@ -1,6 +1,6 @@
 title: "baba-sy"
-description: "보안 공부 기록과 CTF 라이트업"
-lang: ko
+description: "Notes on security and CTF write-ups"
+lang: en
 timezone: Asia/Seoul
 
 url: "https://baba-sy.github.io"
@@ -25,3 +25,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+avatar: /images/profile.jpg
+tagline: "Department of Cyber ​​Defense, Korea University"
